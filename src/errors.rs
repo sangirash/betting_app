@@ -4,8 +4,9 @@ use thiserror::Error;
 pub enum AppError {
     #[error("User not found")]
     UserNotFound,
-    #[error("Insufficient balance")]
-    InsufficientBalance,
+    // This error variant will be implemented later
+    //#[error("Insufficient balance")]
+    //InsufficientBalance,
     #[error("Bet not found")]
     BetNotFound,
     #[error("Invalid bet amount")]

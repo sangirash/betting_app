@@ -1,3 +1,9 @@
+mod models;
+mod errors;
+mod user_service;
+mod betting_service;
+mod payment_service;
+
 fn main() {
-    println!("Hello, world!");
+    betting_app::run();
 }
